@@ -18,7 +18,7 @@ body{
     position: absolute;
     left: 80%;
     cursor: pointer;
-    color: rgb(78 160 231);
+    color: rgb(71, 157, 232);
 }
 .extra{
     z-index: 1;
@@ -27,7 +27,7 @@ body{
     cursor: pointer;
 }
 .color-red{
-    color: red;
+    color: rgb(247, 16, 16);
 }
 #modal-div{
     display: none;
@@ -36,7 +36,7 @@ body{
     top: -10%;
     z-index: 1;
     color: white;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(7, 7, 7, 0.8);
     width: 100vw;
     height: 100vh;
 }
