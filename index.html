@@ -26,12 +26,12 @@
         Go back
     </div>
 
-    <div id="card-dynamic-head">abc</div>
+    <div id="card-dynamic-head" width="300px">abc</div>
 
     <div id="modal-div">
         <div id="modal-box">
             <span class="big-blue-text modal-content">Add New List</span>
-            <input id="modal-input-box" class="input-box modal-content" type="text" placeholder="Type List title here"> <br></input>
+            <input id="modal-input-box" class="input-box modal-content" type="text" placeholder="Type List title here" maxlength="20"> <br></input>
             <button id= "modal-add-button" class="blue-button modal-content" onclick="addCard()">Add</button>
             <button id="modal-close-button" class="blue-button modal-content" onclick="closeModal()">Close</button>
         </div>
@@ -41,7 +41,7 @@
     <div id="modal-div-card">
         <div id="modal-box-card">
             <span class="big-blue-text modal-content">Add New Item</span>
-            <input id="modal-input-box-card" class="input-box modal-content" type="text" placeholder="Type List here"> <br></input>
+            <input id="modal-input-box-card" class="input-box modal-content" type="text" placeholder="Type List here" maxlength="20"> <br></input>
             <button id= "modal-add-button" class="blue-button modal-content" onclick="addList()">Add</button>
             <button id="modal-close-button" class="blue-button modal-content" onclick="closeCardModal()">Close</button>
         </div>

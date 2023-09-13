@@ -16,14 +16,14 @@ body{
 #add-button{
     z-index: 1;
     position: absolute;
-    left: 80%;
+    left: 75%;
     cursor: pointer;
     color: rgb(71, 157, 232);
 }
 .extra{
     z-index: 1;
     position: absolute;
-    left: 84%;
+    left: 80%;
     cursor: pointer;
 }
 .color-red{
@@ -95,13 +95,14 @@ button{
     display: none;
     position: relative;
     min-height: 350px;
-    min-width: 19%;
+    width: 19%;
     text-align: center;
     border-radius: 10px;
     margin: 3% 0 0 5%;
     padding: 10px 0 0 0;
     background: #EEEEEE;
     animation: cardAnimate 0.2s ease-in 0s 1;
+    word-wrap: break-word;
 }
 .card-head{
     padding-left: 10px;
@@ -110,6 +111,7 @@ button{
     font-weight: 500;
     color: #c91b55;
     cursor: pointer;
+    overflow-wrap: break-word;
 }
 .list-element{
     margin-top: 10%;
@@ -200,6 +202,7 @@ button{
     font-weight: 700;
     color: red;
     display: none;
+    word-break: break-all;
 }
 
 #empty-list{
@@ -209,6 +212,13 @@ button{
     color: rgb(69, 206, 42);
     font-size: 45px;
     font-weight: 800;
+}
+.card-head{
+    word-wrap: break-word;
+}
+.wrap-cont{
+    word-wrap: break-word;
+
 }
 
 @media only screen and (max-width: 1000px){
